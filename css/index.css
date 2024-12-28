@@ -1,0 +1,318 @@
+.poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", serif;
+
+}
+
+:root {
+    --orange-color: #FD7401;
+    --blue-color: #1E2772;
+    --grey-color: #F1F3F6;
+    --color-555: #555555;
+    --color-c2: #C2C2C2;
+    --fa-style-family-classic: "Font Awesome 5 Free";
+}
+
+a {
+    text-decoration: none;
+}
+
+/* *--------------------------------------------------------------------------------- */
+/* S login and Sign up */
+/* ***************************************************************** */
+/* S left */
+.design {
+    flex-direction: row;
+}
+
+.design .left {
+    min-width: 350px;
+    box-shadow: 0px 0 10px 3px var(--color-c2);
+}
+
+.design .left .top .icon .secound,
+.design .left .top .icon .fourth {
+    display: block;
+    height: 50px;
+    width: 5px;
+    background-color: var(--blue-color);
+    border-radius: 6px;
+    margin: 0 3px;
+}
+
+.design .left .top .icon .first,
+.design .left .top .icon .third,
+.design .left .top .icon .fifth {
+    display: block;
+    height: 50px;
+    width: 5px;
+    background-color: var(--orange-color);
+    border-radius: 6px;
+    transform: translateY(5px);
+    margin: 0 3px;
+}
+
+.design .left .center .box ::placeholder {
+    font-size: 14px;
+    color: var(--color-555);
+}
+
+.design .left .center .box i {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 14px;
+}
+
+.design .left .bottom a {
+    margin: 0 auto;
+}
+
+.design .left .bottom .or {
+    height: 3px;
+    margin: 40px 0;
+}
+
+.design .left .bottom .or:before {
+    content: "OR";
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: var(--color-c2);
+    position: absolute;
+    left: 50%;
+    top: -25px;
+    transform: translatex(-50%);
+}
+
+.design .left button[type="submit"] {
+    cursor: pointer;
+}
+
+.design .left .center .forgotpass input[type="checkbox"] {
+    /* position: absolute; 
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);*/
+}
+
+@media (max-width:767px) {
+    .design .left {
+        min-width: 250px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+        padding: 20px;
+        z-index: 2;
+    }
+
+    .design .left .top .icon span {
+        font-size: 25px;
+    }
+
+    .design .left .top .icon .secound,
+    .design .left .top .icon .fourth,
+    .design .left .top .icon .first,
+    .design .left .top .icon .third,
+    .design .left .top .icon .fifth {
+        height: 30px;
+        width: 4px;
+    }
+
+    .design .left .center .username,
+    .design .left .center .password {
+        padding: 5px 0;
+    }
+
+    .design .left .center .box i {
+        width: 30px;
+    }
+
+    .design .left .bottom {
+        padding-top: 10px;
+    }
+
+    .design .left .bottom .or {
+        margin: 20px 0;
+        height: 2px;
+    }
+
+    .design .left .bottom .or::before {
+        width: 40px;
+        height: 25px;
+        top: -12.5px
+    }
+
+    .design .left .center label,
+    .design .left input,
+    .design .left button,
+    .design .left a {
+        padding: 5px;
+    }
+
+    .design .left .top p,
+    .design .left .center label,
+    .design .left button,
+    .design .left a {
+        font-size: 14px;
+    }
+
+    .design .left .center .box ::placeholder,
+    .design .left .center .box i,
+    .design .left input,
+    .design .left .center .forgotpass a,
+    .design .left .center .forgotpass label,
+    .design .left .bottom .or::before {
+        font-size: 12px;
+    }
+
+}
+
+/* E left */
+/* ***************************************************************** */
+/* S Right */
+.design .right img {
+    display: block;
+    width: 600px;
+}
+
+@media (max-width:767px) {
+    .design .right {
+        position: relative;
+    }
+
+    .design .right img {
+        width: 500px;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+    }
+}
+
+/* E Right */
+/* ***************************************************************** */
+/* E login and Sign up */
+.success {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 200px;
+    animation: move-Down 1s 0.5s ease-in-out forwards;
+    overflow: hidden;
+    opacity: 0;
+    box-shadow: 0px 0 10px 3px var(--color-c2);
+}
+
+.success .greating {
+    align-items: end;
+}
+
+@media (max-width:767px) {
+    .success {
+        width: 250px;
+        max-height: 200px;
+    }
+
+    .success .text {
+        height: 100%;
+    }
+
+    .success .welcome {
+        font-size: 25px;
+    }
+
+    .success .greating {
+        font-size: 15px;
+    }
+
+    .success a {
+        align-items: end;
+        font-size: 14px;
+    }
+}
+
+@keyframes move-Down {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,204 @@
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.algn-c {
+    align-items: center;
+}
+
+.algn-s {
+    text-align: start;
+}
+
+.algn-e {
+    text-align: end;
+}
+
+.jus-c {
+    justify-content: center;
+}
+
+.txt-c {
+    text-align: center;
+}
+
+/* **************************************************************** */
+.f-h {
+    height: 100vh;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.ptb-10 {
+    padding: 10px 0;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.ptb-20 {
+    padding: 20px 0;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.mtb-20 {
+    margin: 20px 0;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.w-fit {
+    min-width: 100%;
+}
+
+/* **************************************************************** */
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-20 {
+    font-size: 25px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+/* **************************************************************** */
+.bg-blue {
+    background-color: #1E2772;
+}
+
+.bg-orange {
+    background-color: #FD7401;
+}
+
+.bg-grey {
+    background-color: #F1F3F6;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-c2 {
+    background-color: #C2C2C2;
+}
+
+.c-blue {
+    color: #1E2772;
+}
+
+.c-555 {
+    color: #555555;
+}
+
+.c-white {
+    color: white;
+}
+
+.c-c2 {
+    color: #C2C2C2;
+}
+
+.c-orange {
+    color: #FD7401;
+}
+
+/* **************************************************************** */
+.rad-10 {
+    border-radius: 10px;
+}
+
+.rad-half {
+    border-radius: 50%;
+}
+
+.br-0 {
+    border: 0;
+}
+
+.br-orange {
+    border: 2px solid #FD7401;
+}
+
+.br-blue {
+    border: 2px solid #1E2772;
+}
+
+/* **************************************************************** */
+.p-relative {
+    position: relative;
+}
+
+.out-none {
+    outline: none;
+}
+
+.blur {
+    filter: blur(5px);
+}
+
+.pointer-none {
+    pointer-events: none;
+}
