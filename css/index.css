@@ -159,13 +159,6 @@ a {
     cursor: pointer;
 }
 
-.design .left .center .forgotpass input[type="checkbox"] {
-    /* position: absolute; 
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);*/
-}
-
 @media (max-width:767px) {
     .design .left {
         min-width: 250px;
@@ -279,6 +272,16 @@ a {
 
 .success .greating {
     align-items: end;
+}
+
+.success .close button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 @media (max-width:767px) {
